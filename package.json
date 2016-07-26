@@ -2,12 +2,16 @@
   "name": "simple-react-boilerplate",
   "version": "0.0.1",
   "description": "Simple React boilerplate with redux, webpack, react-bootstrap, react-router",
-  "repository" : "https://github.com/venkatgoud/simple-react-boilerplate.git",
+  "repository" : {
+    "type": "git",
+    "url" : "https://github.com/venkatgoud/simple-react-boilerplate.git"
+  },
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --colors --content-base . --port 8093"    
   },
   "author": "Venkat Goud",
   "license": "ISC",

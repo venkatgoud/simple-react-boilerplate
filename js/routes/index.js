@@ -1,7 +1,7 @@
 import React	from 'react';
 import { IndexRoute, Route } from 'react-router';
 import Main 	from '../containers/Main';
-import BoardContainer 	from '../containers/SampleContainer';
+import SampleContainer 	from '../containers/SampleContainer';
 import Users 	from '../components/Users';
 
 var configureRoutes = () => {
